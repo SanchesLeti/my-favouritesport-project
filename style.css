@@ -12,35 +12,59 @@
   text-align: center;
 }
 .content h1 {
+  margin-top: -200px;
   font-size: 160px;
   color: white;
-  font-weight: 600px;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+.content h1:hover {
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+  cursor: grab;
+}
+.content h2 {
+  padding: 224px;
+  margin-top: -506px;
+  font-size: 34px;
+  color: white;
+  font-family: "Bad Script", cursive;
+  cursor: none;
 }
 .content a {
+ font-family: 'Reenie Beanie', cursive;
   text-decoration: none;
   display: inline-block;
   color: white;
   font-size: 24px;
   border: 2px solid white;
-  padding: 14px 20px;
+  padding: 7px 27px;
   border-radius: 50px;
   margin-top: 20px;
+  transition: 0.2s ease-in-out;
+}
+.content a:hover {
+  font-family: 'Reenie Beanie', cursive;
+  background-color: white;
+  color: rgb(5, 137, 147);
+  border: 2px solid rgb(5, 137, 147);
 }
 .swimVideo {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: -1;
+  filter: contrast(1.2) brightness(1.5);
 }
 
-@media (min-aspect-ratio:16/9) {
+@media (min-aspect-ratio: 16/9) {
   .swimVideo {
     width: 100%;
     height: auto;
   }
 }
 
-@media (max-aspect-ratio:16/9) {
+@media (max-aspect-ratio: 16/9) {
   .swimVideo {
     width: auto;
     height: 100%;
