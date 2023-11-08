@@ -32,7 +32,7 @@
   cursor: none;
 }
 .content a {
- font-family: 'Reenie Beanie', cursive;
+  font-family: "Reenie Beanie", cursive;
   text-decoration: none;
   display: inline-block;
   color: white;
@@ -44,7 +44,7 @@
   transition: 0.2s ease-in-out;
 }
 .content a:hover {
-  font-family: 'Reenie Beanie', cursive;
+  font-family: "Reenie Beanie", cursive;
   background-color: white;
   color: rgb(5, 137, 147);
   border: 2px solid rgb(5, 137, 147);
@@ -69,4 +69,9 @@
     width: auto;
     height: 100%;
   }
+}
+.funFacts {
+  font-family: "Reenie Beanie", cursive;
+  color: rgb(5, 137, 147);
+  font-size: 40px;
 }
