@@ -2,21 +2,18 @@ body {
   background: url("https://img.goodfon.com/wallpaper/nbig/6/c1/tropical-coral-reef-1264.jpg")
     no-repeat center center;
   background-size: cover;
-  color: #ffffff;
   text-align: center;
   margin-top: 20px;
   margin-left: 20px;
+  max-width: 543px;
+  min-width: 543px;
 }
 
 .container {
   font-size: 12px;
   text-align: center;
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(147, 230, 241) 0%,
-    rgb(145, 192, 241) 45.5%
-  );
 }
+
 h1 {
-  background-color: rgb(255 248 220 / 50%);
+  font-size: 30px;
 }
