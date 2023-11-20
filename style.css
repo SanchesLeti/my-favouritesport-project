@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 8px;
 }
 .content {
   text-align: center;
@@ -74,18 +75,49 @@
 .funFacts1 {
   font-family: "Bad Script", cursive;
   color: rgba(5, 111, 147, 0.796);
-  font-size: 35px;
+  font-size: 25px;
   margin: 45px;
   text-align: justify;
   padding-left: 31px;
   padding-right: 662px;
+  margin-top: 87px;
 }
 .funFacts2 {
   font-family: "Bad Script", cursive;
   color: rgba(5, 111, 147, 0.796);
-  font-size: 35px;
-  margin: 53px;
+  font-size: 25px;
+  margin: 49px;
   text-align: justify;
   padding-left: 650px;
 }
+.image1 {
+  position: absolute;
+  left: 80px;
+  top: 1258px;
+  border-radius: 20px;
+  max-width: 517px;
+}
 
+.image2 {
+  position: absolute;
+  left: 808px;
+  border-radius: 20px;
+  height: 287px;
+  width: 484px;
+  top: 908px;
+}
+.footer {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 22px;
+  text-align: center;
+text-decoration: overline;
+padding: 10px;
+line-height: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+ .footer a:hover {
+  cursor: pointer;
+ }
