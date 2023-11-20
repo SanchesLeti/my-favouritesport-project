@@ -78,19 +78,20 @@ h3 {
   margin: 20px;
 }
 .funFacts1 {
-  font-family: "Reenie Beanie", cursive;
+  font-family: "Bad Script", cursive;
   color: rgba(5, 111, 147, 0.796);
-  font-size: 40px;
-  padding: 42px 435px;
-  margin: 23px 34px;
-  position: relative;
-  left: -443px;
+  font-size: 35px;
+  margin: 45px;
   text-align: justify;
+  padding-left: 31px;
+  padding-right: 662px;
 }
 .funFacts2 {
-  padding: 88px;
-  margin: -113px 391px;
-  position: relative;
-  left: 392px;
+  font-family: "Bad Script", cursive;
+  color: rgba(5, 111, 147, 0.796);
+  font-size: 35px;
+  margin: 53px;
   text-align: justify;
+  padding-left: 650px;
+}
 }
