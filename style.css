@@ -31,11 +31,12 @@
   font-family: "Bad Script", cursive;
   cursor: none;
 }
-.content a {
+.content button {
   font-family: "Reenie Beanie", cursive;
   text-decoration: none;
   display: inline-block;
   color: white;
+  background-color: transparent;
   font-size: 24px;
   border: 2px solid white;
   padding: 7px 27px;
@@ -43,7 +44,7 @@
   margin-top: 20px;
   transition: 0.2s ease-in-out;
 }
-.content a:hover {
+.content button:hover {
   font-family: "Reenie Beanie", cursive;
   background-color: white;
   color: rgb(5, 137, 147);
@@ -70,8 +71,26 @@
     height: 100%;
   }
 }
-.funFacts {
+h3 {
+  text-align: center;
+  background-color: rgba(127, 246, 255, 0.616);
+  padding: 20px;
+  margin: 20px;
+}
+.funFacts1 {
   font-family: "Reenie Beanie", cursive;
-  color: rgb(5, 137, 147);
+  color: rgba(5, 111, 147, 0.796);
   font-size: 40px;
+  padding: 42px 435px;
+  margin: 23px 34px;
+  position: relative;
+  left: -443px;
+  text-align: justify;
+}
+.funFacts2 {
+  padding: 88px;
+  margin: -113px 391px;
+  position: relative;
+  left: 392px;
+  text-align: justify;
 }
