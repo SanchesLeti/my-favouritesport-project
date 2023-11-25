@@ -47,7 +47,7 @@
 }
 .content button:hover {
   font-family: "Reenie Beanie", cursive;
-  background-color: white;
+  background-color: black;
   color: rgb(5, 137, 147);
   border: 2px solid rgb(5, 137, 147);
 }
@@ -119,6 +119,9 @@
   filter: contrast(80%);
   transform: scale(1.2);
 }
+.grid{
+  grid-template-columns: auto;
+}
 .footer {
   font-family: "Reenie Beanie", cursive;
   font-size: 22px;
@@ -132,4 +135,21 @@
 }
 .footer a:hover {
   cursor: pointer;
+}
+
+.dark-theme {
+  background-color: black;
+  font-weight: bold;
+}
+.dark-theme .footer{
+   color: white;
+}
+.dark-theme a{
+  color: plum;
+}
+.dark-theme button:hover {
+  font-family: "Reenie Beanie", cursive;
+  background-color: white;
+  color: rgb(5, 137, 147);
+  border: 2px solid rgb(5, 137, 147);
 }
