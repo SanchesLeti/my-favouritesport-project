@@ -38,7 +38,7 @@
   display: inline-block;
   color: white;
   background-color: transparent;
-  font-size: 24px;
+  font-size: 30px;
   border: 2px solid white;
   padding: 7px 27px;
   border-radius: 50px;
@@ -47,9 +47,10 @@
 }
 .content button:hover {
   font-family: "Reenie Beanie", cursive;
-  background-color: black;
+  background-color: white;
   color: rgb(5, 137, 147);
   border: 2px solid rgb(5, 137, 147);
+  cursor: pointer;
 }
 .swimVideo {
   position: absolute;
@@ -147,9 +148,20 @@
 .dark-theme a{
   color: plum;
 }
+.dark-theme button {
+  border-color: black;
+  color: black;
+  font-size: 30px;
+}
 .dark-theme button:hover {
   font-family: "Reenie Beanie", cursive;
-  background-color: white;
+  background-color: black;
   color: rgb(5, 137, 147);
   border: 2px solid rgb(5, 137, 147);
+}
+.dark-theme h1 {
+  color: black;
+}
+.dark-theme h2{
+  color: black;
 }
