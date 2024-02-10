@@ -26,13 +26,19 @@
   cursor: grab;
 }
 .content h2 {
-  padding: 224px;
+padding: 336px;
   margin-top: -506px;
-  font-size: 34px;
+  font-size: 49px;
   color: white;
   font-family: "Bad Script", cursive;
   cursor: none;
+  font-weight: bolder;
 }
+      h2 {
+         font-family: "Bad Script", cursive;
+         font-style: oblique;
+         font-size: 40px;
+      }
 .content button {
   font-family: "Reenie Beanie", cursive;
   text-decoration: none;
@@ -73,6 +79,15 @@
     height: 100%;
   }
 }
+      .container {
+       margin-top: 50px;
+      }
+
+      p {
+        font-family: "Bad Script", cursive;
+        color: rgba(5, 111, 147, 0.796);
+        font-size: 25px;
+      }
 .funFacts1 {
   font-family: "Bad Script", cursive;
   color: rgba(5, 111, 147, 0.796);
@@ -83,33 +98,15 @@
   padding-right: 662px;
   margin-top: 87px;
 }
-.funFacts2 {
-  font-family: "Bad Script", cursive;
-  color: rgba(5, 111, 147, 0.796);
-  font-size: 25px;
-  margin: 49px;
-  text-align: justify;
-  padding-left: 650px;
-}
-.funFacts2 a {
-  text-decoration: none;
-}
-.image1 {
-  position: absolute;
-  left: 80px;
-  top: 1258px;
-  border-radius: 20px;
-  max-width: 517px;
-  transition: all 150ms ease-in-out;
-}
-.image2 {
-  position: absolute;
-  left: 808px;
-  border-radius: 20px;
-  height: 287px;
-  width: 484px;
-  top: 908px;
-}
+      .image1 {
+        transition: all 150ms ease-in-out;
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+        padding-top: 40px;
+
+
+      }
 .container-image a:hover {
   cursor: pointer;
 }
@@ -164,5 +161,5 @@
   color: black;
 }
 .dark-theme h2{
-  color: black;
+  color: white;
 }
